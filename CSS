@@ -1,0 +1,73 @@
+body {
+  background-color: #FFBF4C;
+  font-family: 'Old Standard TT', Serif;
+  font-color: #726A99;
+  font-size: 16px;
+}
+
+h1 {
+  padding: 30px 0px 10px 0px;
+  font-size: 60px;
+  background-color: rgba(255,255,255,0.3);
+  margin: 0px;
+}
+
+h2 {
+  font-size: 30px;
+  background-color: rgba(255,255,255,0.3);
+  padding-bottom: 30px;
+}
+
+h3 {
+  font-style: bold;
+}
+
+.banner {
+  background:
+    url("https://picjumbo.imgix.net/HNCK7947.jpg?q=40&w=1650&sharp=30") no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: 'Permanent Marker', Serif;
+}
+
+/*.text {
+  padding: 25px 75px;
+  line-height: 150%;
+}*/
+
+.container {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+#photo {
+   max-width:100%;
+   max-height:100%;
+   vertical-align: middle;
+}
+
+.btn {
+  width: 200px;
+  height: 40px;
+  background: #FF832F;
+  color: white;
+  font-family: 'Permanent Marker', Serif;
+  text-align: center;
+  border: none;
+  margin: 10px;
+}
+
+.btn:hover {
+    background: #F6531E;
+    color: #333333;
+    cursor: pointer;
+}
+
+.nav {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 50px;
+}
